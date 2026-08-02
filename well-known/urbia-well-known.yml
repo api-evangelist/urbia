@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for the Urbia website
+  host (https://www.urbia.de — urbia.com redirects there; the company publishes
+  no API base hosts). Status is the HTTP code observed at fetch time. No
+  document returned a real payload, so nothing was saved; api.urbia.de and
+  developer.urbia.de do not resolve (no DNS).
+hosts:
+  - host: https://www.urbia.de
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+      - path: /llms.txt
+        status: 404
+      - path: /robots.txt
+        status: 200
+        type: text/plain
+        note: Standard robots file; not an API discovery document, not saved.
+  - host: https://api.urbia.de
+    note: Does not resolve (no DNS record).
+  - host: https://developer.urbia.de
+    note: Does not resolve (no DNS record).

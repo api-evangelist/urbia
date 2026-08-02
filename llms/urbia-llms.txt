@@ -1,0 +1,22 @@
+# Urbia
+
+> Urbia (urbia.de) is a German online community and content platform for parents and families, covering fertility, pregnancy, birth, babies, and family life through expert-written magazine articles, active discussion forums, and planning tools. Founded in Cologne in 1998 and backed early by Earlybird Venture Capital, Urbia is today part of the ELTERN family of parenting brands, operated by Funke Women, People & Family GmbH in Hamburg.
+
+Urbia does not publish a public API, developer portal, or machine-readable API specifications (probed 2026-07-21: no api.urbia.de or developer.urbia.de hosts, no /.well-known/ discovery documents, no /llms.txt).
+
+## Site
+
+- [urbia.de](https://www.urbia.de/): Main site — "Wir lieben Familie"; family, fertility, pregnancy, and parenting content and community.
+- [Magazin](https://www.urbia.de/magazin): Editorial magazine with articles on pregnancy, baby, toddler, school-age children, health, and family life.
+- [Forum](https://www.urbia.de/forum): Community discussion forums, including expert-led forums (midwife, fertility expert) and topic boards from Kinderwunsch to Schule.
+- [ELTERN](https://www.eltern.de): Sister brand; Urbia's legal, service, and newsletter pages are hosted on eltern.de.
+
+## Legal
+
+- [Nutzungsbedingungen (Terms)](https://www.urbia.de/allgemein/agb): Community terms of use (redirects to eltern.de).
+- [Datenschutz (Privacy)](https://www.urbia.de/allgemein/datenschutz): Privacy policy.
+- [Impressum](https://www.urbia.de/allgemein/impressum): Legal notice (redirects to eltern.de).
+
+## Catalog
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/urbia/refs/heads/main/apis.yml): API Evangelist network profile for Urbia (no public APIs listed).

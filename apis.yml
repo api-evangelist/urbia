@@ -1,7 +1,24 @@
 aid: urbia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/urbia.png
 name: Urbia
-description: Urbia is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Urbia is a German online community and content platform for parents
+  and families, covering fertility, pregnancy, birth, babies, and family life
+  through expert-written magazine articles, active discussion forums, and planning
+  tools. Founded in Cologne in 1998 and backed early by Earlybird Venture Capital,
+  urbia.de is today part of the ELTERN family of parenting brands, operated by
+  Funke Women, People & Family GmbH in Hamburg. Urbia does not publish a public
+  API or developer program.
 url: https://raw.githubusercontent.com/api-evangelist/urbia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,46 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://www.urbia.de/
+x-founded: '1998'
+x-location: Cologne & Hamburg, Germany
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Parenting
+- Family
+- Community
+- Forums
+- Pregnancy
+- Media
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/urbia-domain-security.yml
+- type: Website
+  url: https://www.urbia.de/
+- type: Blog
+  url: https://www.urbia.de/magazin
+- type: Community
+  url: https://www.urbia.de/forum
+- type: SignUp
+  url: https://www.urbia.de/registrieren
+- type: TermsOfService
+  url: https://www.urbia.de/allgemein/agb
+- type: PrivacyPolicy
+  url: https://www.urbia.de/allgemein/datenschutz
+- type: LLMsTxt
+  url: llms/urbia-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
